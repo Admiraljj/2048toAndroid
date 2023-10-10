@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Game2048</string>
+    <string name="score">Score : 0</string>
+    <string name="highest_score">Highest Score : 0</string>
+    <string name="button_replay">Restart</string>
+</resources>
+

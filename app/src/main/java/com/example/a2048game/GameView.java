@@ -40,7 +40,7 @@ public class GameView extends GridLayout {
     }
 
     public void initGame(){
-        this.setBackgroundColor(getResources().getColor(R.color.gameViewBackgroundColor));
+        this.setBackgroundColor(getResources().getColor(R.color.gameViewBackgroundColor, null));
         setColumnCount(4);
 
         int cardWidth = GetCardWidth();

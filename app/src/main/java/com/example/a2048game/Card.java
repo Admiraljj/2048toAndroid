@@ -82,16 +82,16 @@ public class Card extends FrameLayout {
 
     private void changeColor(int num){
         if(num >= 8){
-            textView.setTextColor(getResources().getColor(R.color.textColorCommon));
+            textView.setTextColor(getResources().getColor(R.color.textColorCommon, null));
         }
         else{
-            textView.setTextColor(getResources().getColor(textColorIdMap.get(num)));
+            textView.setTextColor(getResources().getColor(textColorIdMap.get(num), null));
         }
         if(num >= 2048){
-            textView.setBackgroundColor(getResources().getColor(R.color.backgroundColorBiggerThan2048));
+            textView.setBackgroundColor(getResources().getColor(R.color.backgroundColorBiggerThan2048, null));
         }
         else{
-            textView.setBackgroundColor(getResources().getColor(backgroundColorIdMap.get(num)));
+            textView.setBackgroundColor(getResources().getColor(backgroundColorIdMap.get(num), null));
         }
     }
 }
